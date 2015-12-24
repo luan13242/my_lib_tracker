@@ -43,3 +43,5 @@ gem 'haml'
 # Deploy with Capistrano
 # gem 'capistrano'
 gem 'cancan'
+
+gem 'turbolinks'
