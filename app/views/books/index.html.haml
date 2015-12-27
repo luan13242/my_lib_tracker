@@ -1,0 +1,19 @@
+%table#books
+    %thead
+        %tr
+            %th Book Title
+            %th Author
+            %th Published Year
+            %th Publisher
+            %th ISBN
+            %th More Info
+    %tbody
+        - @books.each do |book|
+            %tr
+                %td= book.title
+                %td= book.author_string
+                %td= book.published_year
+                %td= book.publisher_name
+                %td= book.isbn10
+                %td= book.location
+
